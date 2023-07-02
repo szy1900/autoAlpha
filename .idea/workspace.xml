@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35886d8c-4373-4a1d-81b3-d0e4376030cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/10y_bond_inputMatrix.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/10y_国债.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Gold_inputMatrix.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluated results/因子评估结果.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/indicator.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/lamp16.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mined results/autoPatternFound_cdb.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/Alpha_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/PySimpleGUI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/conditionList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/dataLoader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/geneticAlgorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/mylayout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/paramConfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/patternComponents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/plotRecons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/thread_fuc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/turnPointClass.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://D:/新建文件夹/WeChat Files/szy1900/FileStorage/File/2023-02/国开数据下载(债+gold).py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/utils/patternComponents.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="2DpP1CivH6hqEk2ljv9kTHcVVSI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\autoAlpha_project\swaps\p7" />
+      <recent name="C:\Users\Administrator\PycharmProjects\autoAlpha_project\swaps\p5" />
+      <recent name="C:\Users\Administrator\PycharmProjects\autoAlpha_project\swaps\p6" />
+      <recent name="C:\Users\Administrator\PycharmProjects\autoAlpha_project\swaps\p4" />
+      <recent name="C:\Users\Administrator\PycharmProjects\autoAlpha_project\swaps\p3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="PySimpleGUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autoAlpha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/PySimpleGUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="aa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autoAlpha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autoAlpha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app_au_gplearn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autoAlpha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_au_gplearn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app_cdb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autoAlpha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_cdb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.app_cdb" />
+        <item itemvalue="Python.app_au_gplearn" />
+        <item itemvalue="Python.PySimpleGUI" />
+        <item itemvalue="Python.aa" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35886d8c-4373-4a1d-81b3-d0e4376030cc" name="Default Changelist" comment="" />
+      <created>1661392836007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661392836007</updated>
+      <workItem from="1661392837266" duration="16706000" />
+      <workItem from="1661497678605" duration="9425000" />
+      <workItem from="1661695814285" duration="3581000" />
+      <workItem from="1661733666333" duration="20628000" />
+      <workItem from="1661820910842" duration="19765000" />
+      <workItem from="1661908329678" duration="21718000" />
+      <workItem from="1661992690293" duration="944000" />
+      <workItem from="1662002315013" duration="13669000" />
+      <workItem from="1662022754783" duration="7426000" />
+      <workItem from="1662080552944" duration="1539000" />
+      <workItem from="1662103763082" duration="3209000" />
+      <workItem from="1662299780962" duration="13000" />
+      <workItem from="1662425406203" duration="1837000" />
+      <workItem from="1662429018895" duration="4024000" />
+      <workItem from="1662434595573" duration="2696000" />
+      <workItem from="1662511856927" duration="87000" />
+      <workItem from="1663125903032" duration="640000" />
+      <workItem from="1663636377065" duration="11885000" />
+      <workItem from="1663720714640" duration="7431000" />
+      <workItem from="1663748683091" duration="4886000" />
+      <workItem from="1663826784924" duration="10231000" />
+      <workItem from="1663893596578" duration="91000" />
+      <workItem from="1664113174513" duration="1558000" />
+      <workItem from="1664115739883" duration="1687000" />
+      <workItem from="1664152699536" duration="30963000" />
+      <workItem from="1664238799642" duration="78000" />
+      <workItem from="1664238888069" duration="1869000" />
+      <workItem from="1664259484746" duration="1126000" />
+      <workItem from="1664260894905" duration="6388000" />
+      <workItem from="1664325668514" duration="7766000" />
+      <workItem from="1665276950880" duration="8526000" />
+      <workItem from="1665362437093" duration="530000" />
+      <workItem from="1665449464109" duration="17330000" />
+      <workItem from="1665535333640" duration="19576000" />
+      <workItem from="1665621662097" duration="853000" />
+      <workItem from="1665643246735" duration="10283000" />
+      <workItem from="1665708002046" duration="3479000" />
+      <workItem from="1665985079303" duration="4599000" />
+      <workItem from="1666055291094" duration="28313000" />
+      <workItem from="1666105802427" duration="8000" />
+      <workItem from="1666105827814" duration="25000" />
+      <workItem from="1666140164085" duration="8000" />
+      <workItem from="1666140197666" duration="482000" />
+      <workItem from="1666227359493" duration="5568000" />
+      <workItem from="1666312098041" duration="31000" />
+      <workItem from="1666331059001" duration="5348000" />
+      <workItem from="1666686738701" duration="5821000" />
+      <workItem from="1666744635998" duration="21187000" />
+      <workItem from="1666830516673" duration="17988000" />
+      <workItem from="1666856198093" duration="1908000" />
+      <workItem from="1667133912849" duration="1109000" />
+      <workItem from="1667183690857" duration="3356000" />
+      <workItem from="1667196410414" duration="597000" />
+      <workItem from="1667371394656" duration="1909000" />
+      <workItem from="1667435237854" duration="3580000" />
+      <workItem from="1667700845248" duration="189000" />
+      <workItem from="1668135313453" duration="2521000" />
+      <workItem from="1668220087507" duration="689000" />
+      <workItem from="1668238122848" duration="18000" />
+      <workItem from="1668238181771" duration="12000" />
+      <workItem from="1668341298386" duration="1555000" />
+      <workItem from="1668344723528" duration="2839000" />
+      <workItem from="1668386376900" duration="2565000" />
+      <workItem from="1668392208015" duration="63000" />
+      <workItem from="1668392507931" duration="231000" />
+      <workItem from="1668651932943" duration="37000" />
+      <workItem from="1668652014112" duration="3911000" />
+      <workItem from="1668734022336" duration="95000" />
+      <workItem from="1668750876878" duration="137000" />
+      <workItem from="1669009036658" duration="629000" />
+      <workItem from="1669010612434" duration="3313000" />
+      <workItem from="1669095347195" duration="8882000" />
+      <workItem from="1669180184890" duration="13348000" />
+      <workItem from="1669249473008" duration="17037000" />
+      <workItem from="1669336220664" duration="34000" />
+      <workItem from="1669336288417" duration="5000" />
+      <workItem from="1669345147918" duration="18797000" />
+      <workItem from="1669441735497" duration="16277000" />
+      <workItem from="1669526977538" duration="12340000" />
+      <workItem from="1669594870783" duration="72000" />
+      <workItem from="1669614270310" duration="5508000" />
+      <workItem from="1670557119675" duration="5975000" />
+      <workItem from="1670805347970" duration="1189000" />
+      <workItem from="1670892995417" duration="5000" />
+      <workItem from="1670909255708" duration="20031000" />
+      <workItem from="1670981174273" duration="1914000" />
+      <workItem from="1671431977334" duration="2325000" />
+      <workItem from="1671495218685" duration="1533000" />
+      <workItem from="1671498058432" duration="11469000" />
+      <workItem from="1671582099364" duration="3920000" />
+      <workItem from="1671590777827" duration="10779000" />
+      <workItem from="1671669026993" duration="15226000" />
+      <workItem from="1671777399639" duration="7013000" />
+      <workItem from="1671803915928" duration="1608000" />
+      <workItem from="1672013942102" duration="1558000" />
+      <workItem from="1672034623972" duration="9133000" />
+      <workItem from="1672100638901" duration="70000" />
+      <workItem from="1672110379634" duration="816000" />
+      <workItem from="1672122076515" duration="8948000" />
+      <workItem from="1672186857946" duration="15000" />
+      <workItem from="1672191544968" duration="1341000" />
+      <workItem from="1672273512328" duration="4137000" />
+      <workItem from="1672359974959" duration="3628000" />
+      <workItem from="1672795027850" duration="3202000" />
+      <workItem from="1673483428417" duration="13450000" />
+      <workItem from="1673569849247" duration="13883000" />
+      <workItem from="1673672675721" duration="339000" />
+      <workItem from="1673853790298" duration="301000" />
+      <workItem from="1673915762808" duration="4712000" />
+      <workItem from="1674003339008" duration="629000" />
+      <workItem from="1674089773106" duration="1211000" />
+      <workItem from="1674868307932" duration="117000" />
+      <workItem from="1675386550468" duration="78000" />
+      <workItem from="1675643724090" duration="30258000" />
+      <workItem from="1675691830866" duration="6376000" />
+      <workItem from="1675729546911" duration="25119000" />
+      <workItem from="1675816927650" duration="16288000" />
+      <workItem from="1675902985785" duration="17303000" />
+      <workItem from="1675993226363" duration="7688000" />
+      <workItem from="1676185287273" duration="3440000" />
+      <workItem from="1676249529679" duration="5236000" />
+      <workItem from="1676335740221" duration="1789000" />
+      <workItem from="1676374731328" duration="560000" />
+      <workItem from="1676375314172" duration="1667000" />
+      <workItem from="1676529305334" duration="1258000" />
+      <workItem from="1676594688526" duration="20246000" />
+      <workItem from="1676803639969" duration="1135000" />
+      <workItem from="1676853431788" duration="376000" />
+      <workItem from="1676859791384" duration="1148000" />
+      <workItem from="1676902657979" duration="4480000" />
+      <workItem from="1676948417247" duration="11170000" />
+      <workItem from="1677026494643" duration="44000" />
+      <workItem from="1677461924318" duration="3226000" />
+      <workItem from="1677547497776" duration="739000" />
+      <workItem from="1677549119004" duration="41000" />
+      <workItem from="1677549256087" duration="862000" />
+      <workItem from="1677550562505" duration="7979000" />
+      <workItem from="1677658535484" duration="140000" />
+      <workItem from="1677717955635" duration="2401000" />
+      <workItem from="1677805043614" duration="1197000" />
+      <workItem from="1677830865093" duration="94000" />
+      <workItem from="1677830974583" duration="1246000" />
+      <workItem from="1677832463960" duration="1804000" />
+      <workItem from="1678018408640" duration="19000" />
+      <workItem from="1678625329129" duration="14000" />
+      <workItem from="1678755056845" duration="1274000" />
+      <workItem from="1688124335565" duration="830000" />
+      <workItem from="1688125357852" duration="624000" />
+      <workItem from="1688175349694" duration="54000" />
+      <workItem from="1688175479146" duration="1338000" />
+      <workItem from="1688279703975" duration="12046000" />
+      <workItem from="1688294848023" duration="3707000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/新建文件夹/WeChat Files/szy1900/FileStorage/File/2023-02/国开数据下载(债+gold).py</url>
+          <line>34</line>
+          <option name="timeStamp" value="859" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gold_finger/request_data.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="865" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gold_finger/request_data.py</url>
+          <line>148</line>
+          <option name="timeStamp" value="868" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gold_finger/request_data.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="870" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/plotRecons.py</url>
+          <line>153</line>
+          <option name="timeStamp" value="871" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="dump_result" language="Python" />
+        <watch expression="p.stdout.readline()" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/autoAlpha$ICtablePaper.coverage" NAME="ICtablePaper Coverage Results" MODIFIED="1670557266515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$app_cdb.coverage" NAME="app_cdb Coverage Results" MODIFIED="1671432117971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$table2IC.coverage" NAME="table2IC Coverage Results" MODIFIED="1670562877704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$AU_mining.coverage" NAME="AU_mining Coverage Results" MODIFIED="1666833438960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$imageSetting.coverage" NAME="imageSetting Coverage Results" MODIFIED="1670563330257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$sup_res_mining.coverage" NAME="sup_res_mining Coverage Results" MODIFIED="1669368615750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$aa.coverage" NAME="aa Coverage Results" MODIFIED="1677833252375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$.coverage" NAME="归因分析 Coverage Results" MODIFIED="1675996383420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$app_au.coverage" NAME="app_au Coverage Results" MODIFIED="1670923036436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$app.coverage" NAME="app Coverage Results" MODIFIED="1688291168205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$patternComponents.coverage" NAME="patternComponents Coverage Results" MODIFIED="1664115660547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$double_bottom.coverage" NAME="double_bottom Coverage Results" MODIFIED="1676853674487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$patternComponents.coverage" NAME="patternComponents Coverage Results" MODIFIED="1675753636547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/autoAlpha$plotRecons.coverage" NAME="plotRecons Coverage Results" MODIFIED="1670563681980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/autoAlpha$AU_featureMining.coverage" NAME="AU_featureMining Coverage Results" MODIFIED="1669453594675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$export_selections_AU.coverage" NAME="export_selections_AU Coverage Results" MODIFIED="1669614550735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$PySimpleGUI.coverage" NAME="PySimpleGUI Coverage Results" MODIFIED="1688124905248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/autoAlpha$thread_fuc.coverage" NAME="thread_fuc Coverage Results" MODIFIED="1664260934874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/autoAlpha$test.coverage" NAME="test Coverage Results" MODIFIED="1661736363897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$V3.coverage" NAME="归因分析V3 Coverage Results" MODIFIED="1676270187027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$sup_res_mining.coverage" NAME="sup_res_mining Coverage Results" MODIFIED="1675683531606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$__gold_.coverage" NAME="国开数据下载(债+gold) Coverage Results" MODIFIED="1676618703511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/新建文件夹/WeChat Files/szy1900/FileStorage/File/2023-02" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$Triangular.coverage" NAME="Triangular Coverage Results" MODIFIED="1676961930257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$combo.coverage" NAME="combo Coverage Results" MODIFIED="1662103989605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$Triangular_gold.coverage" NAME="Triangular_gold Coverage Results" MODIFIED="1676966383721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$app.coverage" NAME="app Coverage Results" MODIFIED="1666837794651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$double_bottom_gold.coverage" NAME="double_bottom_gold Coverage Results" MODIFIED="1676949626069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$ResMerge.coverage" NAME="ResMerge Coverage Results" MODIFIED="1676603972065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha2$app.coverage" NAME="app Coverage Results" MODIFIED="1688304406217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1661933019405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$sup_res_mining_swap.coverage" NAME="sup_res_mining_swap Coverage Results" MODIFIED="1676376831527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$app_cdb.coverage" NAME="app_cdb Coverage Results" MODIFIED="1688292125293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha2$app_cdb.coverage" NAME="app_cdb Coverage Results" MODIFIED="1688295706318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$add_experiment.coverage" NAME="add_experiment Coverage Results" MODIFIED="1670985597882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$patternMining_GA.coverage" NAME="patternMining_GA Coverage Results" MODIFIED="1671461644903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$PySimpleGUI.coverage" NAME="PySimpleGUI Coverage Results" MODIFIED="1661736879822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$support_resistance.coverage" NAME="support_resistance Coverage Results" MODIFIED="1677549346021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$__gold___1_.coverage" NAME="国开数据下载(债+gold) (1) Coverage Results" MODIFIED="1677547547951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$Demo_Tree_Element_Checkbox.coverage" NAME="Demo_Tree_Element_Checkbox Coverage Results" MODIFIED="1662013044069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$app_au_gplearn.coverage" NAME="app_au_gplearn Coverage Results" MODIFIED="1669617012645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$ICtablePaper_finalTable.coverage" NAME="ICtablePaper_finalTable Coverage Results" MODIFIED="1670562664249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$V2.coverage" NAME="归因分析V2 Coverage Results" MODIFIED="1675999194172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$support_resistance.coverage" NAME="support_resistance Coverage Results" MODIFIED="1668389265258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha_project$app_au_gplearn.coverage" NAME="app_au_gplearn Coverage Results" MODIFIED="1688175586734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha$export_selections.coverage" NAME="export_selections Coverage Results" MODIFIED="1669272860035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
