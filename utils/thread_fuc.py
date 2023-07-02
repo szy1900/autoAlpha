@@ -108,8 +108,8 @@ def quick_test_all_CDB(updated_dataTable, window,values, cofig_obj,fileName =f"C
             # print(
             #     f"信号次数{0};胜率{np.nan};收益{np.nan}")
     date = values['date_input']
-    bigTable_save2.to_csv(f"alpha因子信号大表_{pd.to_datetime(date).year}.csv",encoding="utf_8_sig")
-    updated_dataTable.to_csv(f"挖掘因子训练评估表现总汇_{pd.to_datetime(date).year}.csv",encoding="utf_8_sig")
+    # bigTable_save2.to_csv(f"alpha因子信号大表_{pd.to_datetime(date).year}.csv",encoding="utf_8_sig")
+    updated_dataTable.to_csv(f"factor performance in evaluation_{pd.to_datetime(date).year}.csv",encoding="utf_8_sig")
     window['TestAll'].click()
 
 

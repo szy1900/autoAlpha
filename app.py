@@ -75,7 +75,7 @@ def mutation(bitstring, r_mut):
         if rand() < r_mut:
             # flip the bit
             if rand() < 0.50:
-                bitstring[i] = False  ##优先考虑简单的组合
+                bitstring[i] = False  ##forcing the kernels to be sparser
             else:
                 bitstring[i] = True if bitstring[i] == False else False
 
@@ -219,7 +219,7 @@ def GA_thread(df_results, window, featureTree):
 def run():
     dataLength = None
     run_time = 0
-    f = open("data/10y_国债.json")
+    f = open("data/28bondfeatures.json")
 
     # f = open("dictData.json")
     featureTree = json.load(f)
@@ -263,7 +263,7 @@ def run():
                            ga_checkbox]
 
     checkboxList = [
-        sg.Checkbox(f'{key}', default=False, key=f'{key}') if key == "图像特征" else sg.Checkbox(f'{key}', default=True,
+        sg.Checkbox(f'{key}', default=True, key=f'{key}') if key == "图像特征" else sg.Checkbox(f'{key}', default=True,
                                                                                              key=f'{key}') for key in
         ga_checkbox]
     layout = [[sg.Frame('autoAlpha', [

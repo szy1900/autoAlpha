@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35886d8c-4373-4a1d-81b3-d0e4376030cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/10y_bond_inputMatrix.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/10y_国债.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Gold_inputMatrix.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluated results/因子评估结果.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/indicator.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/lamp16.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mined results/autoPatternFound_cdb.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/Alpha_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/PySimpleGUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/conditionList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/dataLoader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/geneticAlgorithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/mylayout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/paramConfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/patternComponents.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/plotRecons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/thread_fuc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/turnPointClass.py" afterDir="false" />
+    <list default="true" id="35886d8c-4373-4a1d-81b3-d0e4376030cc" name="Default Changelist" comment="updated">
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/10y_国债.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluated results/因子评估结果.csv" beforeDir="false" afterPath="$PROJECT_DIR$/evaluated results/因子评估结果.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mined results/autoPatternFound_cdb.csv" beforeDir="false" afterPath="$PROJECT_DIR$/mined results/autoPatternFound_cdb.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/thread_fuc.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/thread_fuc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,28 +94,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="aa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="autoAlpha" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aa.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autoAlpha" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,13 +160,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autoAlpha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.app_cdb" />
         <item itemvalue="Python.app_au_gplearn" />
         <item itemvalue="Python.PySimpleGUI" />
-        <item itemvalue="Python.aa" />
       </list>
     </recent_temporary>
   </component>
@@ -366,8 +351,23 @@
       <workItem from="1688175349694" duration="54000" />
       <workItem from="1688175479146" duration="1338000" />
       <workItem from="1688279703975" duration="12046000" />
-      <workItem from="1688294848023" duration="3707000" />
+      <workItem from="1688294848023" duration="6294000" />
     </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1688306237086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688306237086</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated">
+      <created>1688306254686</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688306254686</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +383,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -423,8 +427,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="dump_result" language="Python" />
-        <watch expression="p.stdout.readline()" language="Python" />
+        <watch expression="df.describe()" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -457,7 +460,7 @@
     <SUITE FILE_PATH="coverage/autoAlpha$app.coverage" NAME="app Coverage Results" MODIFIED="1666837794651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autoAlpha_project$double_bottom_gold.coverage" NAME="double_bottom_gold Coverage Results" MODIFIED="1676949626069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autoAlpha_project$ResMerge.coverage" NAME="ResMerge Coverage Results" MODIFIED="1676603972065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/autoAlpha2$app.coverage" NAME="app Coverage Results" MODIFIED="1688304406217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha2$app.coverage" NAME="app Coverage Results" MODIFIED="1688308878298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autoAlpha$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1661933019405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autoAlpha_project$sup_res_mining_swap.coverage" NAME="sup_res_mining_swap Coverage Results" MODIFIED="1676376831527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autoAlpha_project$app_cdb.coverage" NAME="app_cdb Coverage Results" MODIFIED="1688292125293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -465,6 +468,7 @@
     <SUITE FILE_PATH="coverage/autoAlpha$add_experiment.coverage" NAME="add_experiment Coverage Results" MODIFIED="1670985597882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autoAlpha$patternMining_GA.coverage" NAME="patternMining_GA Coverage Results" MODIFIED="1671461644903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autoAlpha$PySimpleGUI.coverage" NAME="PySimpleGUI Coverage Results" MODIFIED="1661736879822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autoAlpha2$test.coverage" NAME="test Coverage Results" MODIFIED="1688308032569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autoAlpha_project$support_resistance.coverage" NAME="support_resistance Coverage Results" MODIFIED="1677549346021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autoAlpha_project$__gold___1_.coverage" NAME="国开数据下载(债+gold) (1) Coverage Results" MODIFIED="1677547547951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autoAlpha$Demo_Tree_Element_Checkbox.coverage" NAME="Demo_Tree_Element_Checkbox Coverage Results" MODIFIED="1662013044069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
